@@ -16,7 +16,10 @@ const SearchFilters =() => {
         const values = getFilterValues(filterValues);
 
         values.forEach((item) => {
-            query[item.name] = item.value
+            if(item.value && filterValues?.[item.name]) {
+                query[item.name] = item.value
+
+            }
         })
 
         router.push({ pathname: path, query})
@@ -24,12 +27,12 @@ const SearchFilters =() => {
     return(
         <Flex bg="gray.100" p="4" justifyContent="center" flexWrap="wrap">
             {filters.map((filter) => (
-                <Box key={filter.queyName}>
+                <Box key={filter.queryName}>
                     <Select 
                         placeholder={filter.placeholder}
                         w="fit-content"
                         p="2"
-                        onChange={(e) => searchProperties({[filter.queyName] : e.target.value})}>
+                        onChange={(e) => searchProperties({[filter.queryName] : e.target.value})}>
                         
                         {filter?.items?.map((item) => (
                             <option value={item.value} hey={item.value}>{item.name}
