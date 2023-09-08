@@ -13,7 +13,7 @@ const PropertyDetails = ({propertyDetails: {price, rentFrequency, rooms, title, 
       <Flex paddingTop="2" alignItems="center" justifyContent="space-between">
         <Flex alignItems="center">
             <Box paddingRight="3" color="green.400"> {isVerified && <GoVerified />}</Box>
-            <Text fontWeight="bold" fontSize= "lg">Rs.{millify(price)}{rentFrequency && `/${rentFrequency}`}</Text>
+            <Text fontWeight="bold" fontSize= "lg">AED {millify(price)}{rentFrequency && `/${rentFrequency}`}</Text>
         </Flex>
 
         <Box>
@@ -39,21 +39,21 @@ const PropertyDetails = ({propertyDetails: {price, rentFrequency, rooms, title, 
         <Flex flexWrap="wrap" textTransform="uppercase" justifyContent="space-between">
             <Flex justifyContent="space-between" w="400" borderBottom="1px" borderColor="gray.300" p="3">
 
-                <Text>Type</Text>
+                <Text>Type: </Text>
                 <Text fontWeight="bold">{type}</Text>
 
             </Flex>
 
-            <Flex justifyContent="space-between" w="400" borderBottom="1px" borderColor="gray.300" p="3">
+            <Flex  w="400" borderBottom="1px" borderColor="gray.300" p="3">
 
-                <Text>Purpose</Text>
+                <Text>Purpose: </Text>
                 <Text fontWeight="bold">{purpose}</Text>
 
             </Flex>
             {furnishingStatus && (
                 <Flex justifyContent="space-between" w="400" borderBottom="1px" borderColor="gray.300" p="3">
 
-                <Text>Furnishing Status</Text>
+                <Text>Furnishing Status: </Text>
                 <Text fontWeight="bold">{furnishingStatus}</Text>
 
             </Flex>
