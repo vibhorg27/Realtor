@@ -1,5 +1,5 @@
 
-## Realtor
+# Realtor
 
 "Realtor" is an exceptional real estate web application meticulously crafted using ReactJS and NextJS. Seamlessly integrated with the Bayut API via RapidAPI, it offers users a comprehensive platform for discovering rental homes and for-sale properties. With an elegant Chakra UI CSS component-based interface, it ensures a visually pleasing and user-friendly experience. Key features include advanced property filtering, property details pages enriched with captivating image carousels, interactive maps for location visualization, user authentication, and review functionality. Realtor is your go-to destination for navigating the dynamic real estate market, simplifying property exploration, and making informed decisions.
 
