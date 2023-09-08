@@ -9,9 +9,7 @@ import noresult from '../assets/images/noresult.svg'
 import { fetchApi, baseUrl } from "@/utils/fetchapi";
 
 
-const Search = ({
-    
-}) => {
+const Search = ({ properties }) => {
     const [searchFilters, setSearchFilters] = useState(false);
     const router =useRouter();
 
