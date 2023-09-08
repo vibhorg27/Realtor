@@ -8,9 +8,13 @@ Javascript | ReactJS | NextJS | CSS
 
 ## Challenges Faced
 > **API Integration Mastery:** Successfully integrated the Bayut API via RapidAPI, marking a significant achievement in project development.
+
 > **Complex Search Filters:** Overcame the intricacies of crafting advanced property filtering mechanisms, enhancing user search capabilities.
+
 > **Image Carousel Expertise:** Skillfully developed image carousels, elevating the visual appeal and user engagement of the application.
+
 > **Continuous Learning:** Demonstrated a commitment to continuous improvement and technical advancement in web development.
+
 > **User-Centric Focus:** Strived to deliver a polished, user-friendly experience in the real estate application "Realtor."
 
 ## Visuals
