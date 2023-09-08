@@ -1,38 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Realtor
 
-First, run the development server:
+"Realtor" is an exceptional real estate web application meticulously crafted using ReactJS and NextJS. Seamlessly integrated with the Bayut API via RapidAPI, it offers users a comprehensive platform for discovering rental homes and for-sale properties. With an elegant Chakra UI CSS component-based interface, it ensures a visually pleasing and user-friendly experience. Key features include advanced property filtering, property details pages enriched with captivating image carousels, interactive maps for location visualization, user authentication, and review functionality. Realtor is your go-to destination for navigating the dynamic real estate market, simplifying property exploration, and making informed decisions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## TechStack
+Javascript | ReactJS | NextJS | CSS 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Challenges Faced
+> **API Integration Mastery:** Successfully integrated the Bayut API via RapidAPI, marking a significant achievement in project development.
+> **Complex Search Filters:** Overcame the intricacies of crafting advanced property filtering mechanisms, enhancing user search capabilities.
+> **Image Carousel Expertise:** Skillfully developed image carousels, elevating the visual appeal and user engagement of the application.
+> **Continuous Learning:** Demonstrated a commitment to continuous improvement and technical advancement in web development.
+> **User-Centric Focus:** Strived to deliver a polished, user-friendly experience in the real estate application "Realtor."
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Visuals
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Alt text](image.png)
